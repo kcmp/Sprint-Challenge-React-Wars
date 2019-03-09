@@ -1,0 +1,52 @@
+.profileCard {
+    width: 25%;
+    /* height: auto; */
+    background: white;
+    padding: 20px 70px;
+    margin: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0, rgb(73, 132, 180)),
+      color-stop(1, rgb(97, 155, 203))
+    );
+    border-radius: 25px;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0, 0, 0, 0.4),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+      inset 0px 0px 3px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0, 0, 0, 0.4),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+      inset 0px 0px 3px rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0, 0, 0, 0.4),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+      inset 0px 0px 3px rgba(255, 255, 255, 0.5);
+    transition: all 0.2s ease-in-out;
+    -webkit-transform: rotateX(20deg);
+    transform: rotateX(20deg);
+  }
+  
+  .profileCard:hover {
+    opacity: 0.8;
+    border: 2px double #2d6898;
+  }
+  .cardList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .characterName {
+    font-size: 20px;
+    font-weight: bold;
+    color: saddlebrown;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .infoLabel {
+    font-weight: bold;
+  }
