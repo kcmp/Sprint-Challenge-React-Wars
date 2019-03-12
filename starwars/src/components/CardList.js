@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card.js";
 
-const CardCollection = props => {
+const CardList = props => {
   let cardArray = props.starwarsChars.map(item => {
     return (
       <Card
@@ -18,4 +18,4 @@ const CardCollection = props => {
   return <div className="cardList">{cardArray}</div>;
 };
 
-export default CardCollection;
+export default CardList;
